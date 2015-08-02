@@ -1,0 +1,118 @@
+@charset "utf-8";
+body {
+	background-color: #080838;
+	background-image: url(img/bg.jpg);
+	background-repeat: repeat-x;
+	margin: 0px;
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #39F;
+}
+#cuerpo {
+	width: 848px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 100%;
+	margin-bottom: 0px;
+	position: relative;
+}
+#cabecera {
+	width: 848px;
+	background-image: url(img/cabecera.png);
+	height: 268px;
+}
+#menu {
+	width: 848px;
+	background-image: url(img/bordes.png);
+}
+#pagina {
+	background-image: url(img/bordes.png);
+	background-repeat: repeat-y;
+	width: 848px;
+}
+#contenido {
+	width: 650px;
+	position: relative;
+	top: 40px;
+	color: #36F;
+	padding: 0px;
+	background-repeat: repeat-y;
+	margin-right: auto;
+	margin-left: auto;
+}
+#contenido-texto {
+	padding-right: 25px;
+	padding-left: 25px;
+	background-image: url(img/borde-texto-lat.png);
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+#contenido #borde-inf {
+	height: 11px;
+	bottom: 0px;
+	background-image: url(img/borde-texto-inf.png);
+	width: 100%;
+}
+#contenido #borde-sup {
+	height: 11px;
+	top: 0px;
+	background-image: url(img/borde-texto-sup.png);
+	width: 100%;
+}
+p {
+	margin: 0px;
+}
+a {
+	color: #36F;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}
+h1 {
+	margin-top: 0px;
+	font-size: 24px;
+}
+h2 {
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0px;
+}
+#inferior {
+	width: 848px;
+	background-image: url(img/inferior.png);
+	height: 110px;
+}
+#pie {
+	height: 50px;
+	background-image: url(img/pie.png);
+	margin-top: 40px;
+	position: relative;
+	width: 848px;
+}
+#pie p {
+	text-align: center;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #36F;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	top: 14px;
+	position: relative;
+	font-size: 16px;
+}
+#pie a {
+	color: #36F;
+}
+.descargar img {
+	border:none;
+}
